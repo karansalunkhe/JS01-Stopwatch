@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #3aafa9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 20px;
+}
+
+#stopwatch {
+  font-size: 2rem;
+  font-weight: normal;
+  color: white;
+  margin-top: 20px;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#main-div {
+  margin: 13%;
+}
+
+#start {
+  background-color: green;
+}
+
+#stop {
+  background-color: red;
+}
+
+#reset {
+  background-color: rgb(199 199 47);
+}
